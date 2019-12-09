@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/upload/proses','UploadController@proses_upload');
+Route::post('/upload/proses','UploadController@proses_upload');

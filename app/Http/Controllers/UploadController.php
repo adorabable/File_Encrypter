@@ -4,12 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class UploadContoller extends Controller
+class UploadController extends Controller
 {
     public function proses_upload(Request $request){
 		$this->validate($request, [
 			'file' => 'required',
-			'keterangan' => 'required',
 		]);
  
 		// menyimpan data file yang diupload ke variabel $file
