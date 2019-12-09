@@ -1,5 +1,5 @@
-# File_Encrypter
-Aplikasi untuk mengenkripsi file text dengan Affine Cipher
+#File_Encrypter
+Aplikasi untuk mengenkripsi file text menggunakan Affine Cipher
 
 #Tujuan
-Memenuhi Tugas akhir Praktikum Kriptografi
+Untuk memenuhi tugas akhir Praktikum Kriptografi, Desember 2019
