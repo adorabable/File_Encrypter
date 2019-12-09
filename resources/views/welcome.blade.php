@@ -31,7 +31,7 @@
 				<form action="/upload/proses" method="POST" enctype="multipart/form-data">
 					{{ csrf_field() }}
 					<div class="form-group box2 file"></div>
-					<input style="display:none" name="file" id="file" type="file" class="upload-files">
+					<input style="display:none" onchange="form.submit()" name="file" id="file" type="file" class="upload-files">
 					<label for="file" class="upload-files" >Choose a file</label></form>
 
 				<!-- <form action="/upload/proses" method="POST" enctype="multipart/form-data">
