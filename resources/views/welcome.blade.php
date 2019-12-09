@@ -28,8 +28,11 @@
 				</div>
 				@endif
 				<div class="box1"></div>
+				<form action="/upload/proses" method="POST" enctype="multipart/form-data">
+					{{ csrf_field() }}
 					<div class="form-group box2 file"></div>
-					<div class="upload-files">Upload Files</div>
+					<input style="display:none" name="file" id="file" type="file" class="upload-files">
+					<label for="file" class="upload-files" >Choose a file</label></form>
 
 				<!-- <form action="/upload/proses" method="POST" enctype="multipart/form-data">
 					{{ csrf_field() }}
@@ -48,7 +51,7 @@
  
 				<input type="submit" value="Upload" class="btn btn-primary"> 
 				</form> -->
-				<div class="copy-right"></div>
+				<div class="copy-right">eNCRypt</div>
 			</div>
 		</div>
 	</div>

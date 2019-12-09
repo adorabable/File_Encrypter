@@ -15,7 +15,7 @@ body{
 
 .title{
     position: absolute;
-    width: 727pt;
+    width: 580pt;
     height: 145pt;
     left: 320pt;
     top: 30pt;
@@ -34,7 +34,7 @@ body{
 
 .text{
     position: absolute;
-    width: 727pt;
+    width: 580pt;
     height: 145pt;
     left: 350pt;
     top: 70pt;
@@ -107,19 +107,19 @@ body{
     line-height: 49px;
     /* identical to box height */
 
-    display: flex;
+    /* display: flex;
     align-items: center;
     text-align: center;
 
     color: #463F3A;
-} */
+} */ 
 
 .copy-right{
     position: absolute;
-    width: 218px;
-    height: 49px;
-    left: 877px;
-    top: 1008px;
+    width: 218pt;
+    height: 49pt;
+    left: 370pt;
+    top: 400pt;
 
     font-family: Vollkorn;
     font-style: normal;
