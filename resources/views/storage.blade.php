@@ -8,11 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Storage</title>
+    <title>History</title>
   </head>
   <body>
     <div class="container">
-        <h1 class="mt-2">Storage</h1>
+        <h1 class="mt-2">History</h1>
         <div class="row">
         <table class="table table-striped">
             <thead>

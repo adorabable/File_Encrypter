@@ -45,8 +45,7 @@ body{
 
 .box1{
     position: absolute;
-    width: 700pt;
-    height: 150pt;
+    width="700pt" height ="150pt"
     left: 130pt;
     top: 220pt;
 
