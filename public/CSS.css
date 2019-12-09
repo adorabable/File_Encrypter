@@ -15,16 +15,11 @@ body{
 
 .title{
     position: absolute;
-    width: 580pt;
-    height: 145pt;
-    left: 320pt;
-    top: 30pt;
-
+    padding-top:  80pt;
     font-family: Vollkorn;
     font-style: normal;
     font-weight: normal;
-    font-size: 30pt;
-    line-height: 84px;
+    font-size: 25pt;
     display: flex;
     align-items: center;
     text-align: center;
@@ -34,20 +29,14 @@ body{
 
 .text{
     position: absolute;
-    width: 580pt;
-    height: 145pt;
-    left: 350pt;
-    top: 70pt;
-
+    padding-top: 90pt;
     font-family: Vollkorn;
     font-style: normal;
     font-weight: normal;
     font-size: 15pt;
-    line-height: 84px;
     display: flex;
     align-items: center;
     text-align: center;
-
     color: #463F3A;
 }
 
@@ -55,7 +44,7 @@ body{
     position: absolute;
     width: 700pt;
     height: 150pt;
-    left: 130pt;
+    padding-left: 70pt;
     top: 220pt;
 
     background: #FFFFFF;
@@ -65,7 +54,6 @@ body{
     position: absolute;
     width: 600pt;
     height: 50pt;
-    left: 180pt;
     top: 270pt;
 
     background: #E0AFA0;
