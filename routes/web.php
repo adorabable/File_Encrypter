@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::view('/storage','storage');
+
+//untuk upload
 Route::post('/upload/proses','UploadController@proses_upload');
