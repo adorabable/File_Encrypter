@@ -51,7 +51,7 @@
  
 				<input type="submit" value="Upload" class="btn btn-primary"> 
 				</form> -->
-				<div class="copy-right">eNCRypt</div>
+				<div class="copy-right">eNCRypt 2019</div>
 			</div>
 		</div>
 	</div>
