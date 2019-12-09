@@ -1,2 +1,5 @@
 # File_Encrypter
-Repository Tugas Praktikum Kriptografi
+Aplikasi untuk mengenkripsi file text dengan Affine Cipher
+
+#Tujuan
+Memenuhi Tugas akhir Praktikum Kriptografi
