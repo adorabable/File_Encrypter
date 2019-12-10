@@ -24,12 +24,14 @@
                 </tr>
             </thead>
             <tbody>
+              @foreach ($arsips as $arsip)
                 <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>Download | Delete</td>
+                <th scope="row">{{$loop->iteration}}</th>
+                <td>{{$arsip->fileName}}</td>
+                <td>{{$arsip->created_at}}</td>
+                <td><a class="btn btn-dark" style="color:white" href="/storage/download/{{$arsip->id}}">Download</a>  <a class="btn btn-danger" style="color:white" href="/storage/delete/{{$arsip->id}}">Delete</a></td>
                 </tr>                
+              @endforeach
             </tbody>
         </table>
         </div>
