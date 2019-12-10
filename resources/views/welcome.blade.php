@@ -19,7 +19,11 @@
 			<img class="logo" src="logo.png" alt="logo">
 		</div>
 		<div class="col-md-6">
+<<<<<<< HEAD
 			<button class="history" onclick="location.href='/storage'" style="float: right" >History</button>
+=======
+			<a class="history" style="float: right" href="history">History</a>
+>>>>>>> 78243c684696469c64e7950ab22a375ca8893602
 		</div>
 		</div>
 		<br>
