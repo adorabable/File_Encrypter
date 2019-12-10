@@ -15,16 +15,12 @@ body{
 
 .title{
     position: absolute;
-    width: 580pt;
-    height: 145pt;
-    left: 320pt;
-    top: 30pt;
+    top: 80pt;
 
     font-family: Vollkorn;
     font-style: normal;
     font-weight: normal;
-    font-size: 30pt;
-    line-height: 84px;
+    font-size: 25pt;
     display: flex;
     align-items: center;
     text-align: center;
@@ -34,16 +30,12 @@ body{
 
 .text{
     position: absolute;
-    width: 580pt;
-    height: 145pt;
-    left: 350pt;
-    top: 70pt;
 
+    top: 90pt;
     font-family: Vollkorn;
     font-style: normal;
     font-weight: normal;
     font-size: 15pt;
-    line-height: 84px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -53,8 +45,7 @@ body{
 
 .box1{
     position: absolute;
-    width: 700pt;
-    height: 150pt;
+    width="700pt" height ="150pt"
     left: 130pt;
     top: 220pt;
 

@@ -1,0 +1,65 @@
+body{
+    background: #F4F3EE;
+}
+
+.logo{
+    width: 100pt;
+    height: 100pt;
+    padding-top: 0pt;
+    padding-left: 0pt;
+}
+
+.history{
+    width: 100pt;
+    height:30pt;
+    background: #E0AFA0;
+    font-size: 12.5pt;
+    margin-top: 20pt;
+    margin-right: 0pt;
+}
+
+.title{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+}
+
+.box1{
+    width: 700pt;
+    height: 150pt;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box2{
+    width: 600pt;
+    height: 50pt;
+    background: #E0AFA0;
+    border-radius: 50px;
+
+}
+
+.upload-files{
+    position: absolute;
+    width: 188pt;
+    height: 49pt;
+    left: 430pt;
+    top: 270pt;
+
+    font-family: Vollkorn;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20pt;
+    line-height: 49px;
+
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #463F3A;
+}
