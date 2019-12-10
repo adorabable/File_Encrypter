@@ -35,13 +35,14 @@ body{
     margin-right: auto;
 }
 
-.box2{
+/* .box2{
     width: 600pt;
     height: 50pt;
     background: #E0AFA0;
     border-radius: 50px;
-
-}
+    left: 430pt;
+    top: 270pt;
+} */
 
 .upload-files{
     position: absolute;
@@ -58,6 +59,26 @@ body{
 
 
     display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #463F3A;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.copy-right{
+    font-family: Vollkorn;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: auto;
+    /* identical to box height */
+    top : 900px;
+    padding-top: 30px;
+    display: relative;
     align-items: center;
     text-align: center;
 

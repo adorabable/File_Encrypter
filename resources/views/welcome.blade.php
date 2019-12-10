@@ -19,7 +19,7 @@
 			<img class="logo" src="logo.png" alt="logo">
 		</div>
 		<div class="col-md-6">
-			<button class="history" style="float: right" >History</button>
+			<button class="history" onclick="location.href='/storage'" style="float: right" >History</button>
 		</div>
 		</div>
 		<br>
@@ -53,17 +53,19 @@
 					@endforeach
 				</div>
 				@endif
-
 		<div class="box1">
 			<form action="/upload/proses" method="POST" enctype="multipart/form-data">
 					{{ csrf_field() }}
-					<div class="form-group box2 file"></div>
+					<div class="form-group box2 file></div>
 					<input style="display:none" onchange="form.submit()" name="file" id="file" type="file" class="upload-files">
 					<label for="file" class="upload-files" >Choose a file</label></form>
 		</div>
-		<br>
-
-		
+</div>
+</div>
+</div>
+<div class="">
+			<div class="copy-right"> © eNCRypt 2019</div>
+		</div>
 			
 
 			

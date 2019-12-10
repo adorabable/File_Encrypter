@@ -10,6 +10,7 @@
 
     <title>History</title>
   </head>
+  <link href="style.css" rel="stylesheet">
   <body>
     <div class="container">
         <h1 class="mt-2">History</h1>
