@@ -19,7 +19,7 @@
 			<img class="logo" src="logo.png" alt="logo">
 		</div>
 		<div class="col-md-6">
-			<button class="history" style="float: right" >History</button>
+			<a class="history" style="float: right" href="history">History</a>
 		</div>
 		</div>
 		<br>

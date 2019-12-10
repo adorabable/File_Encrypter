@@ -18,7 +18,7 @@ class UploadController extends Controller
 		$file = $request->file('file');
  
                 // upload file
-		$path = $file->storeAs('uploads',$file->getClientOriginalName());
+		$path = $file->store('uploads');
 
 		//store ke database
 		$fileBaru = new Arsip;
@@ -27,7 +27,7 @@ class UploadController extends Controller
 		$fileBaru->url = $path;
 		$fileBaru->save();
 
-		 return redirect('storage');
+		 return redirect('history');
 	}
 
 }

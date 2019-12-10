@@ -15,9 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/storage','DownloadController@index');
-Route::get('/storage/download/{id}','DownloadController@download');
-Route::get('/storage/delete/{id}','DownloadController@destroy');
+Route::get('/history','DownloadController@index');
+Route::get('/history/download/{id}','DownloadController@download');
+Route::get('/history/delete/{id}','DownloadController@destroy');
 
 
 //untuk upload

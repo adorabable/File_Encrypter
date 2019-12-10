@@ -29,7 +29,7 @@
                 <th scope="row">{{$loop->iteration}}</th>
                 <td>{{$arsip->fileName}}</td>
                 <td>{{$arsip->created_at}}</td>
-                <td><a class="btn btn-dark" style="color:white" href="/storage/download/{{$arsip->id}}">Download</a>  <a class="btn btn-danger" style="color:white" href="/storage/delete/{{$arsip->id}}">Delete</a></td>
+                <td><a class="btn btn-dark" style="color:white" href="/history/download/{{$arsip->id}}">Download</a>  <a class="btn btn-danger" style="color:white" href="/history/delete/{{$arsip->id}}">Delete</a></td>
                 </tr>                
               @endforeach
             </tbody>

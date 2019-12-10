@@ -42,6 +42,8 @@ class DownloadController extends Controller
         $arsip = Arsip::find($id);
         $arsip->delete();
 
-        return redirect('storage');
+        Storage::delete($arsip->url);
+
+        return redirect('history');
     }
 }
